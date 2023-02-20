@@ -1,9 +1,9 @@
-from django.shortcuts import render, get_object_or_404, resolve_url
+from django.shortcuts import render, get_object_or_404
 from .models import House
 from orders.forms import OrderForm
 
 from django.http import HttpResponseRedirect
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from .forms import HousesFilterForm
 
 
